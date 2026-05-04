@@ -49,18 +49,18 @@ API_KEY=1c43ac61b776ea320a9f265e77c85b37
 
 ### 3. Builder l’image  
 ```bash
-docker build -t meteo-cli .
+docker build -t docker-meteo .
 ```
 
 ### 4. Lancer le container  
 ```bash
-docker run -it meteo-cli
+docker run -it docker-meteo
 ```
 
 ## Structure du projet  
 
 ```bash
-meteo-cli/
+docker-meteo/
 ├── meteo.py       # Code principal
 ├── Dockerfile     # Configuration Docker
 ├── .env           # Clé API (non versionné)
