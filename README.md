@@ -40,7 +40,7 @@ Pour simplifier l’utilisation du projet, la clé API est fournie directement.
 Il s’agit d’une API météo gratuite, donc il n’y a pas de risque particulier ici.  
 
 ⚠️ En revanche, dans un contexte réel (projet perso sérieux ou entreprise), il ne faut jamais partager une clé API. Chacun doit utiliser la sienne et la garder privée.  
-
+Et ne pas abusez des requêtes car il existe une limite de requêtes gratuite par jour.  
 Créer un fichier `.env` à la racine du projet avec :  
 
 ```bash
